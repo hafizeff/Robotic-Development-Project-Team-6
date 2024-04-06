@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+  <loop>false</loop>
+  <repeat_times>1</repeat_times>
+  <repeat_period>500</repeat_period>
+  <packets_list>
+    <packet name="Start">
+      <payload>7A</payload>
+    </packet>
+    <packet name="Stop">
+      <payload>AA</payload>
+    </packet>
+    <packet name="Forward">
+      <payload>01</payload>
+    </packet>
+    <packet name="Reverse">
+      <payload>02</payload>
+    </packet>
+    <packet name="TurnRight">
+      <payload>03</payload>
+    </packet>
+    <packet name="TurnLeft">
+      <payload>04</payload>
+    </packet>
+    <packet name="MoveRight">
+      <payload>05</payload>
+    </packet>
+    <packet name="MoveLeft">
+      <payload>06</payload>
+    </packet>
+    <packet name="Digonal_UR">
+      <payload>07</payload>
+    </packet>
+    <packet name="Digonal_UL">
+      <payload>08</payload>
+    </packet>
+    <packet name="Digonal_DR">
+      <payload>09</payload>
+    </packet>
+    <packet name="Digonal_DL">
+      <payload>0A</payload>
+    </packet>
+    <packet name="ArkRight_Forward">
+      <payload>0B</payload>
+    </packet>
+    <packet name="ArkRight_Reverse">
+      <payload>0C</payload>
+    </packet>
+    <packet name="ArkLeft_Forward">
+      <payload>0D</payload>
+    </packet>
+    <packet name="ArkLeft_Reverse">
+      <payload>0E</payload>
+    </packet>
+    <packet name="Pivot_Right_Front">
+      <payload>0F</payload>
+    </packet>
+    <packet name="Pivot_Left_Front">
+      <payload>10</payload>
+    </packet>
+    <packet name="Pivot_Right_Rear">
+      <payload>11</payload>
+    </packet>
+    <packet name="Pivot_Left_Rear">
+      <payload>12</payload>
+    </packet>
+    <packet name="Ram_Forward">
+      <payload>13</payload>
+    </packet>
+    <packet name="Carry_Ball">
+      <payload>14</payload>
+    </packet>
+    <packet name="PutDown_Plate">
+      <payload>15</payload>
+    </packet>
+    <packet name="Kick_Ball">
+      <payload>16</payload>
+    </packet>
+    <packet name="Party_mode">
+      <payload>17</payload>
+    </packet>
+  </packets_list>
+</data>
